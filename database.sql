@@ -1,0 +1,8 @@
+#
+# TABLE: ad_type
+#
+CREATE TABLE ad_types (id INT(7) AUTO_INCREMENT PRIMARY KEY, name VARCHAR(5))
+#
+# TABLE: ads
+#
+CREATE TABLE ads (id INT(7) AUTO_INCREMENT PRIMARY KEY, ad_type);
